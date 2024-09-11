@@ -1,0 +1,11 @@
+INFO     unit_tools.log_util.recordlog:conftest.py:16 ---------------接口测试开始---------------
+ERROR    unit_tools.log_util.recordlog:yaml_handler.py:88 Error：未知异常 - 'NoneType' object is not subscriptable
+ERROR    unit_tools.log_util.recordlog:apiutils_business.py:210 出现未知异常，-- Traceback (most recent call last):
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 97, in execute_test_cases
+    headers = eval(self.parse_and_replace_variables(headers)) if isinstance(headers, str) else headers
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 50, in parse_and_replace_variables
+    extract_data = getattr(DebugTalk(), func_name)(*func_params)
+  File "D:\Code\1024\interfaceAuto\unit_tools\debugtalk.py", line 87, in get_headers_auth
+    auth2 = 'Bearer ' + auth1   # 拼接成完整的授权信息
+TypeError: can only concatenate str (not "NoneType") to str
+INFO     unit_tools.log_util.recordlog:conftest.py:18 ---------------接口测试结束---------------

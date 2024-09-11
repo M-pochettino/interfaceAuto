@@ -1,0 +1,22 @@
+<environment>
+    <parameter>
+        <key>system</key>
+        <value>window 10</value>
+    </parameter>
+    <parameter>
+        <key>Python version</key>
+        <value>python3.10.2</value>
+    </parameter>
+    <parameter>
+        <key>allure version</key>
+        <value>3.18.0</value>
+    </parameter>
+    <parameter>
+        <key>项目名</key>
+        <value>1024自动化测试</value>
+    </parameter>
+    <parameter>
+        <key>作者</key>
+        <value>1024</value>
+    </parameter>
+</environment>

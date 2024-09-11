@@ -1,0 +1,20 @@
+- baseInfo:
+    api_name: 用户登录
+    url: /api/auth/oauth2/token
+    method: post
+    headers:
+      Content-Type: application/json;charset=UTF-8
+      Authorization: Basic cGlnOnBpZw==
+  testCase:
+    - case_name: 用户正常登录校验
+      params:
+        username: admin
+        randomStr: blockPuzzle
+        code:
+        grant_type: password
+        scope: server
+        password: JFat0Zdc
+      validation:
+        - code: 200
+      extract:
+        access_token: $.access_token

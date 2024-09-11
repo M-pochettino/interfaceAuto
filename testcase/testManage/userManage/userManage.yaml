@@ -1,0 +1,116 @@
+- baseInfo:
+    api_name: 获取用户列表
+    url: /api/admin/user/page
+    method: get
+    headers:
+      ${get_headers_auth(json)}
+  testCase:
+    - case_name: 获取用户列表
+      params:
+        current: 1
+        size: 10
+      validation:
+        - eq: {'ok':True}
+        - code: 200
+      extract:
+        user_id: $.data.records[0].userId
+- baseInfo:
+    api_name: 添加用户
+    url: /api/admin/user
+    method: post
+    headers:
+      ${get_headers_auth(json)}
+  testCase:
+    - case_name: 添加新用户
+      json:
+        userId: ''
+        username: ${get_random_string(username)}
+        password: '123456'
+        salt: ''
+        wxOpenid: ''
+        qqOpenid: ''
+        lockFlag: '0'
+        phone: ${get_random_string(phone)}
+        deptId: '1'
+        roleList: [ ]
+        postList: [ ]
+        nickname: ${get_random_string(nickname)}
+        name: ${get_random_string(name)}
+        email: ${get_random_string(email)}
+        post:
+          - '1'
+        role:
+          - '1'
+      validation:
+        - eq: { 'ok': True }
+        - code: 200
+- baseInfo:
+    api_name: 修改用户
+    url: /api/admin/user
+    method: put
+    headers:
+      ${get_headers_auth(json)}
+  testCase:
+    - case_name: 修改用户
+      json:
+        userId: ${get_extract_info(user_id)}
+        username: guiying48
+        salt: null
+        wxOpenid: null
+        qqOpenid: null
+        giteeOpenId: null
+        oscOpenId: null
+        createTime: '2024-07-14 19:01:00'
+        updateTime: null
+        lockFlag: '0'
+        passwordExpireFlag: '0'
+        passwordModifyTime: '2024-07-14 19:01:00'
+        phone: 155****4063
+        avatar: null
+        deptId: '1'
+        tenantId: '1'
+        deptName: 总裁办
+        roleList:
+          - roleId: '1'
+            roleName: 管理员
+            roleCode: ROLE_ADMIN
+            roleDesc: 管理员
+            dsType: 0
+            dsScope: ''
+            createBy: null
+            updateBy: null
+            createTime: '2017-10-29 15:45:51'
+            updateTime: '2023-04-06 14:03:28'
+            delFlag: '0'
+        postList:
+          - postId: '1'
+            postCode: TEAM_LEADER
+            postName: 部门负责人
+            postSort: 0
+            remark: LEADER
+            createBy: null
+            updateBy: null
+            delFlag: '0'
+            createTime: '2022-03-26 13:48:17'
+            updateTime: '2023-03-08 16:03:35'
+        nickname: 张桂珍
+        name: 张龙
+        email: xiuyingpan@example.com
+        wxCpUserid: null
+        wxDingUserid: null
+      validation:
+        - eq: { 'ok': True }
+        - code: 200
+- baseInfo:
+    api_name: 删除用户
+    url: /api/admin/user
+    method: delete
+    headers:
+      ${get_headers_auth(json)}
+  testCase:
+    - case_name: 删除用户
+      json:
+        - ${get_extract_info(user_id)}
+      validation:
+        - eq: { 'ok': True }
+        - code: 200

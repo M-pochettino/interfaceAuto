@@ -1,0 +1,393 @@
+INFO - 2024-09-11 00:26:53,756 - conftest.py:16 -[conftest:print_info] - ---------------接口测试开始---------------
+INFO - 2024-09-11 00:26:56,345 - conftest.py:18 -[conftest:print_info] - ---------------接口测试结束---------------
+INFO - 2024-09-11 00:26:56,348 - conftest.py:16 -[conftest:print_info] - ---------------接口测试开始---------------
+ERROR - 2024-09-11 00:26:56,350 - yaml_handler.py:88 -[yaml_handler:get_extract_yaml] - Error：未知异常 - 'NoneType' object is not subscriptable
+ERROR - 2024-09-11 00:26:56,390 - apiutils_business.py:210 -[apiutils_business:execute_test_cases] - 出现未知异常，-- Traceback (most recent call last):
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 97, in execute_test_cases
+    headers = eval(self.parse_and_replace_variables(headers)) if isinstance(headers, str) else headers
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 50, in parse_and_replace_variables
+    extract_data = getattr(DebugTalk(), func_name)(*func_params)
+  File "D:\Code\1024\interfaceAuto\unit_tools\debugtalk.py", line 87, in get_headers_auth
+    auth2 = 'Bearer ' + auth1   # 拼接成完整的授权信息
+TypeError: can only concatenate str (not "NoneType") to str
+
+INFO - 2024-09-11 00:26:56,428 - conftest.py:18 -[conftest:print_info] - ---------------接口测试结束---------------
+INFO - 2024-09-11 00:26:56,430 - conftest.py:16 -[conftest:print_info] - ---------------接口测试开始---------------
+ERROR - 2024-09-11 00:26:56,432 - yaml_handler.py:88 -[yaml_handler:get_extract_yaml] - Error：未知异常 - 'NoneType' object is not subscriptable
+ERROR - 2024-09-11 00:26:56,432 - apiutils_business.py:210 -[apiutils_business:execute_test_cases] - 出现未知异常，-- Traceback (most recent call last):
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 97, in execute_test_cases
+    headers = eval(self.parse_and_replace_variables(headers)) if isinstance(headers, str) else headers
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 50, in parse_and_replace_variables
+    extract_data = getattr(DebugTalk(), func_name)(*func_params)
+  File "D:\Code\1024\interfaceAuto\unit_tools\debugtalk.py", line 87, in get_headers_auth
+    auth2 = 'Bearer ' + auth1   # 拼接成完整的授权信息
+TypeError: can only concatenate str (not "NoneType") to str
+
+INFO - 2024-09-11 00:26:56,459 - conftest.py:18 -[conftest:print_info] - ---------------接口测试结束---------------
+INFO - 2024-09-11 00:26:56,461 - conftest.py:16 -[conftest:print_info] - ---------------接口测试开始---------------
+ERROR - 2024-09-11 00:26:56,462 - yaml_handler.py:88 -[yaml_handler:get_extract_yaml] - Error：未知异常 - 'NoneType' object is not subscriptable
+ERROR - 2024-09-11 00:26:56,463 - apiutils_business.py:210 -[apiutils_business:execute_test_cases] - 出现未知异常，-- Traceback (most recent call last):
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 97, in execute_test_cases
+    headers = eval(self.parse_and_replace_variables(headers)) if isinstance(headers, str) else headers
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 50, in parse_and_replace_variables
+    extract_data = getattr(DebugTalk(), func_name)(*func_params)
+  File "D:\Code\1024\interfaceAuto\unit_tools\debugtalk.py", line 87, in get_headers_auth
+    auth2 = 'Bearer ' + auth1   # 拼接成完整的授权信息
+TypeError: can only concatenate str (not "NoneType") to str
+
+INFO - 2024-09-11 00:26:56,476 - conftest.py:18 -[conftest:print_info] - ---------------接口测试结束---------------
+INFO - 2024-09-11 00:26:56,478 - conftest.py:16 -[conftest:print_info] - ---------------接口测试开始---------------
+ERROR - 2024-09-11 00:26:56,479 - yaml_handler.py:88 -[yaml_handler:get_extract_yaml] - Error：未知异常 - 'NoneType' object is not subscriptable
+ERROR - 2024-09-11 00:26:56,479 - apiutils_business.py:210 -[apiutils_business:execute_test_cases] - 出现未知异常，-- Traceback (most recent call last):
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 97, in execute_test_cases
+    headers = eval(self.parse_and_replace_variables(headers)) if isinstance(headers, str) else headers
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 50, in parse_and_replace_variables
+    extract_data = getattr(DebugTalk(), func_name)(*func_params)
+  File "D:\Code\1024\interfaceAuto\unit_tools\debugtalk.py", line 87, in get_headers_auth
+    auth2 = 'Bearer ' + auth1   # 拼接成完整的授权信息
+TypeError: can only concatenate str (not "NoneType") to str
+
+INFO - 2024-09-11 00:26:56,492 - conftest.py:18 -[conftest:print_info] - ---------------接口测试结束---------------
+INFO - 2024-09-11 00:26:56,494 - conftest.py:16 -[conftest:print_info] - ---------------接口测试开始---------------
+ERROR - 2024-09-11 00:26:56,496 - yaml_handler.py:88 -[yaml_handler:get_extract_yaml] - Error：未知异常 - 'NoneType' object is not subscriptable
+ERROR - 2024-09-11 00:26:56,496 - apiutils_business.py:210 -[apiutils_business:execute_test_cases] - 出现未知异常，-- Traceback (most recent call last):
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 97, in execute_test_cases
+    headers = eval(self.parse_and_replace_variables(headers)) if isinstance(headers, str) else headers
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 50, in parse_and_replace_variables
+    extract_data = getattr(DebugTalk(), func_name)(*func_params)
+  File "D:\Code\1024\interfaceAuto\unit_tools\debugtalk.py", line 87, in get_headers_auth
+    auth2 = 'Bearer ' + auth1   # 拼接成完整的授权信息
+TypeError: can only concatenate str (not "NoneType") to str
+
+INFO - 2024-09-11 00:26:56,530 - conftest.py:18 -[conftest:print_info] - ---------------接口测试结束---------------
+INFO - 2024-09-11 00:26:56,532 - conftest.py:16 -[conftest:print_info] - ---------------接口测试开始---------------
+ERROR - 2024-09-11 00:26:56,533 - yaml_handler.py:88 -[yaml_handler:get_extract_yaml] - Error：未知异常 - 'NoneType' object is not subscriptable
+ERROR - 2024-09-11 00:26:56,534 - apiutils_business.py:210 -[apiutils_business:execute_test_cases] - 出现未知异常，-- Traceback (most recent call last):
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 97, in execute_test_cases
+    headers = eval(self.parse_and_replace_variables(headers)) if isinstance(headers, str) else headers
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 50, in parse_and_replace_variables
+    extract_data = getattr(DebugTalk(), func_name)(*func_params)
+  File "D:\Code\1024\interfaceAuto\unit_tools\debugtalk.py", line 87, in get_headers_auth
+    auth2 = 'Bearer ' + auth1   # 拼接成完整的授权信息
+TypeError: can only concatenate str (not "NoneType") to str
+
+INFO - 2024-09-11 00:26:56,548 - conftest.py:18 -[conftest:print_info] - ---------------接口测试结束---------------
+INFO - 2024-09-11 00:26:56,551 - conftest.py:16 -[conftest:print_info] - ---------------接口测试开始---------------
+ERROR - 2024-09-11 00:26:56,553 - yaml_handler.py:88 -[yaml_handler:get_extract_yaml] - Error：未知异常 - 'NoneType' object is not subscriptable
+ERROR - 2024-09-11 00:26:56,554 - apiutils_business.py:210 -[apiutils_business:execute_test_cases] - 出现未知异常，-- Traceback (most recent call last):
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 97, in execute_test_cases
+    headers = eval(self.parse_and_replace_variables(headers)) if isinstance(headers, str) else headers
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 50, in parse_and_replace_variables
+    extract_data = getattr(DebugTalk(), func_name)(*func_params)
+  File "D:\Code\1024\interfaceAuto\unit_tools\debugtalk.py", line 87, in get_headers_auth
+    auth2 = 'Bearer ' + auth1   # 拼接成完整的授权信息
+TypeError: can only concatenate str (not "NoneType") to str
+
+INFO - 2024-09-11 00:26:56,572 - conftest.py:18 -[conftest:print_info] - ---------------接口测试结束---------------
+INFO - 2024-09-11 00:26:56,576 - conftest.py:16 -[conftest:print_info] - ---------------接口测试开始---------------
+ERROR - 2024-09-11 00:26:56,578 - yaml_handler.py:88 -[yaml_handler:get_extract_yaml] - Error：未知异常 - 'NoneType' object is not subscriptable
+ERROR - 2024-09-11 00:26:56,578 - apiutils_business.py:210 -[apiutils_business:execute_test_cases] - 出现未知异常，-- Traceback (most recent call last):
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 97, in execute_test_cases
+    headers = eval(self.parse_and_replace_variables(headers)) if isinstance(headers, str) else headers
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 50, in parse_and_replace_variables
+    extract_data = getattr(DebugTalk(), func_name)(*func_params)
+  File "D:\Code\1024\interfaceAuto\unit_tools\debugtalk.py", line 87, in get_headers_auth
+    auth2 = 'Bearer ' + auth1   # 拼接成完整的授权信息
+TypeError: can only concatenate str (not "NoneType") to str
+
+INFO - 2024-09-11 00:26:56,598 - conftest.py:18 -[conftest:print_info] - ---------------接口测试结束---------------
+INFO - 2024-09-11 00:28:31,046 - conftest.py:16 -[conftest:print_info] - ---------------接口测试开始---------------
+INFO - 2024-09-11 01:29:09,104 - conftest.py:18 -[conftest:print_info] - ---------------接口测试结束---------------
+INFO - 2024-09-11 01:29:09,113 - conftest.py:16 -[conftest:print_info] - ---------------接口测试开始---------------
+ERROR - 2024-09-11 01:29:09,116 - yaml_handler.py:88 -[yaml_handler:get_extract_yaml] - Error：未知异常 - 'NoneType' object is not subscriptable
+ERROR - 2024-09-11 01:29:09,117 - apiutils_business.py:210 -[apiutils_business:execute_test_cases] - 出现未知异常，-- Traceback (most recent call last):
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 97, in execute_test_cases
+    headers = eval(self.parse_and_replace_variables(headers)) if isinstance(headers, str) else headers
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 50, in parse_and_replace_variables
+    extract_data = getattr(DebugTalk(), func_name)(*func_params)
+  File "D:\Code\1024\interfaceAuto\unit_tools\debugtalk.py", line 87, in get_headers_auth
+    auth2 = 'Bearer ' + auth1   # 拼接成完整的授权信息
+TypeError: can only concatenate str (not "NoneType") to str
+
+INFO - 2024-09-11 01:29:09,159 - conftest.py:18 -[conftest:print_info] - ---------------接口测试结束---------------
+INFO - 2024-09-11 01:29:09,165 - conftest.py:16 -[conftest:print_info] - ---------------接口测试开始---------------
+ERROR - 2024-09-11 01:29:09,167 - yaml_handler.py:88 -[yaml_handler:get_extract_yaml] - Error：未知异常 - 'NoneType' object is not subscriptable
+ERROR - 2024-09-11 01:29:09,168 - apiutils_business.py:210 -[apiutils_business:execute_test_cases] - 出现未知异常，-- Traceback (most recent call last):
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 97, in execute_test_cases
+    headers = eval(self.parse_and_replace_variables(headers)) if isinstance(headers, str) else headers
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 50, in parse_and_replace_variables
+    extract_data = getattr(DebugTalk(), func_name)(*func_params)
+  File "D:\Code\1024\interfaceAuto\unit_tools\debugtalk.py", line 87, in get_headers_auth
+    auth2 = 'Bearer ' + auth1   # 拼接成完整的授权信息
+TypeError: can only concatenate str (not "NoneType") to str
+
+INFO - 2024-09-11 01:29:09,209 - conftest.py:18 -[conftest:print_info] - ---------------接口测试结束---------------
+INFO - 2024-09-11 01:29:09,215 - conftest.py:16 -[conftest:print_info] - ---------------接口测试开始---------------
+ERROR - 2024-09-11 01:29:09,217 - yaml_handler.py:88 -[yaml_handler:get_extract_yaml] - Error：未知异常 - 'NoneType' object is not subscriptable
+ERROR - 2024-09-11 01:29:09,218 - apiutils_business.py:210 -[apiutils_business:execute_test_cases] - 出现未知异常，-- Traceback (most recent call last):
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 97, in execute_test_cases
+    headers = eval(self.parse_and_replace_variables(headers)) if isinstance(headers, str) else headers
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 50, in parse_and_replace_variables
+    extract_data = getattr(DebugTalk(), func_name)(*func_params)
+  File "D:\Code\1024\interfaceAuto\unit_tools\debugtalk.py", line 87, in get_headers_auth
+    auth2 = 'Bearer ' + auth1   # 拼接成完整的授权信息
+TypeError: can only concatenate str (not "NoneType") to str
+
+INFO - 2024-09-11 01:29:09,257 - conftest.py:18 -[conftest:print_info] - ---------------接口测试结束---------------
+INFO - 2024-09-11 01:29:09,262 - conftest.py:16 -[conftest:print_info] - ---------------接口测试开始---------------
+ERROR - 2024-09-11 01:29:09,265 - yaml_handler.py:88 -[yaml_handler:get_extract_yaml] - Error：未知异常 - 'NoneType' object is not subscriptable
+ERROR - 2024-09-11 01:29:09,266 - apiutils_business.py:210 -[apiutils_business:execute_test_cases] - 出现未知异常，-- Traceback (most recent call last):
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 97, in execute_test_cases
+    headers = eval(self.parse_and_replace_variables(headers)) if isinstance(headers, str) else headers
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 50, in parse_and_replace_variables
+    extract_data = getattr(DebugTalk(), func_name)(*func_params)
+  File "D:\Code\1024\interfaceAuto\unit_tools\debugtalk.py", line 87, in get_headers_auth
+    auth2 = 'Bearer ' + auth1   # 拼接成完整的授权信息
+TypeError: can only concatenate str (not "NoneType") to str
+
+INFO - 2024-09-11 01:29:09,306 - conftest.py:18 -[conftest:print_info] - ---------------接口测试结束---------------
+INFO - 2024-09-11 01:29:09,313 - conftest.py:16 -[conftest:print_info] - ---------------接口测试开始---------------
+ERROR - 2024-09-11 01:29:09,315 - yaml_handler.py:88 -[yaml_handler:get_extract_yaml] - Error：未知异常 - 'NoneType' object is not subscriptable
+ERROR - 2024-09-11 01:29:09,316 - apiutils_business.py:210 -[apiutils_business:execute_test_cases] - 出现未知异常，-- Traceback (most recent call last):
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 97, in execute_test_cases
+    headers = eval(self.parse_and_replace_variables(headers)) if isinstance(headers, str) else headers
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 50, in parse_and_replace_variables
+    extract_data = getattr(DebugTalk(), func_name)(*func_params)
+  File "D:\Code\1024\interfaceAuto\unit_tools\debugtalk.py", line 87, in get_headers_auth
+    auth2 = 'Bearer ' + auth1   # 拼接成完整的授权信息
+TypeError: can only concatenate str (not "NoneType") to str
+
+INFO - 2024-09-11 01:29:09,416 - conftest.py:18 -[conftest:print_info] - ---------------接口测试结束---------------
+INFO - 2024-09-11 01:29:09,421 - conftest.py:16 -[conftest:print_info] - ---------------接口测试开始---------------
+ERROR - 2024-09-11 01:29:09,423 - yaml_handler.py:88 -[yaml_handler:get_extract_yaml] - Error：未知异常 - 'NoneType' object is not subscriptable
+ERROR - 2024-09-11 01:29:09,424 - apiutils_business.py:210 -[apiutils_business:execute_test_cases] - 出现未知异常，-- Traceback (most recent call last):
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 97, in execute_test_cases
+    headers = eval(self.parse_and_replace_variables(headers)) if isinstance(headers, str) else headers
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 50, in parse_and_replace_variables
+    extract_data = getattr(DebugTalk(), func_name)(*func_params)
+  File "D:\Code\1024\interfaceAuto\unit_tools\debugtalk.py", line 87, in get_headers_auth
+    auth2 = 'Bearer ' + auth1   # 拼接成完整的授权信息
+TypeError: can only concatenate str (not "NoneType") to str
+
+INFO - 2024-09-11 01:29:09,463 - conftest.py:18 -[conftest:print_info] - ---------------接口测试结束---------------
+INFO - 2024-09-11 01:29:09,468 - conftest.py:16 -[conftest:print_info] - ---------------接口测试开始---------------
+ERROR - 2024-09-11 01:29:09,471 - yaml_handler.py:88 -[yaml_handler:get_extract_yaml] - Error：未知异常 - 'NoneType' object is not subscriptable
+ERROR - 2024-09-11 01:29:09,471 - apiutils_business.py:210 -[apiutils_business:execute_test_cases] - 出现未知异常，-- Traceback (most recent call last):
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 97, in execute_test_cases
+    headers = eval(self.parse_and_replace_variables(headers)) if isinstance(headers, str) else headers
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 50, in parse_and_replace_variables
+    extract_data = getattr(DebugTalk(), func_name)(*func_params)
+  File "D:\Code\1024\interfaceAuto\unit_tools\debugtalk.py", line 87, in get_headers_auth
+    auth2 = 'Bearer ' + auth1   # 拼接成完整的授权信息
+TypeError: can only concatenate str (not "NoneType") to str
+
+INFO - 2024-09-11 01:29:09,512 - conftest.py:18 -[conftest:print_info] - ---------------接口测试结束---------------
+INFO - 2024-09-11 01:29:09,517 - conftest.py:16 -[conftest:print_info] - ---------------接口测试开始---------------
+ERROR - 2024-09-11 01:29:09,519 - yaml_handler.py:88 -[yaml_handler:get_extract_yaml] - Error：未知异常 - 'NoneType' object is not subscriptable
+ERROR - 2024-09-11 01:29:09,520 - apiutils_business.py:210 -[apiutils_business:execute_test_cases] - 出现未知异常，-- Traceback (most recent call last):
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 97, in execute_test_cases
+    headers = eval(self.parse_and_replace_variables(headers)) if isinstance(headers, str) else headers
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 50, in parse_and_replace_variables
+    extract_data = getattr(DebugTalk(), func_name)(*func_params)
+  File "D:\Code\1024\interfaceAuto\unit_tools\debugtalk.py", line 87, in get_headers_auth
+    auth2 = 'Bearer ' + auth1   # 拼接成完整的授权信息
+TypeError: can only concatenate str (not "NoneType") to str
+
+INFO - 2024-09-11 01:29:09,565 - conftest.py:18 -[conftest:print_info] - ---------------接口测试结束---------------
+INFO - 2024-09-11 01:29:12,462 - conftest.py:16 -[conftest:print_info] - ---------------接口测试开始---------------
+INFO - 2024-09-11 01:29:14,993 - conftest.py:18 -[conftest:print_info] - ---------------接口测试结束---------------
+INFO - 2024-09-11 01:29:14,997 - conftest.py:16 -[conftest:print_info] - ---------------接口测试开始---------------
+ERROR - 2024-09-11 01:29:14,998 - yaml_handler.py:88 -[yaml_handler:get_extract_yaml] - Error：未知异常 - 'NoneType' object is not subscriptable
+ERROR - 2024-09-11 01:29:14,999 - apiutils_business.py:210 -[apiutils_business:execute_test_cases] - 出现未知异常，-- Traceback (most recent call last):
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 97, in execute_test_cases
+    headers = eval(self.parse_and_replace_variables(headers)) if isinstance(headers, str) else headers
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 50, in parse_and_replace_variables
+    extract_data = getattr(DebugTalk(), func_name)(*func_params)
+  File "D:\Code\1024\interfaceAuto\unit_tools\debugtalk.py", line 87, in get_headers_auth
+    auth2 = 'Bearer ' + auth1   # 拼接成完整的授权信息
+TypeError: can only concatenate str (not "NoneType") to str
+
+INFO - 2024-09-11 01:29:15,012 - conftest.py:18 -[conftest:print_info] - ---------------接口测试结束---------------
+INFO - 2024-09-11 01:29:15,014 - conftest.py:16 -[conftest:print_info] - ---------------接口测试开始---------------
+ERROR - 2024-09-11 01:29:15,015 - yaml_handler.py:88 -[yaml_handler:get_extract_yaml] - Error：未知异常 - 'NoneType' object is not subscriptable
+ERROR - 2024-09-11 01:29:15,016 - apiutils_business.py:210 -[apiutils_business:execute_test_cases] - 出现未知异常，-- Traceback (most recent call last):
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 97, in execute_test_cases
+    headers = eval(self.parse_and_replace_variables(headers)) if isinstance(headers, str) else headers
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 50, in parse_and_replace_variables
+    extract_data = getattr(DebugTalk(), func_name)(*func_params)
+  File "D:\Code\1024\interfaceAuto\unit_tools\debugtalk.py", line 87, in get_headers_auth
+    auth2 = 'Bearer ' + auth1   # 拼接成完整的授权信息
+TypeError: can only concatenate str (not "NoneType") to str
+
+INFO - 2024-09-11 01:29:15,046 - conftest.py:18 -[conftest:print_info] - ---------------接口测试结束---------------
+INFO - 2024-09-11 01:29:15,049 - conftest.py:16 -[conftest:print_info] - ---------------接口测试开始---------------
+ERROR - 2024-09-11 01:29:15,050 - yaml_handler.py:88 -[yaml_handler:get_extract_yaml] - Error：未知异常 - 'NoneType' object is not subscriptable
+ERROR - 2024-09-11 01:29:15,050 - apiutils_business.py:210 -[apiutils_business:execute_test_cases] - 出现未知异常，-- Traceback (most recent call last):
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 97, in execute_test_cases
+    headers = eval(self.parse_and_replace_variables(headers)) if isinstance(headers, str) else headers
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 50, in parse_and_replace_variables
+    extract_data = getattr(DebugTalk(), func_name)(*func_params)
+  File "D:\Code\1024\interfaceAuto\unit_tools\debugtalk.py", line 87, in get_headers_auth
+    auth2 = 'Bearer ' + auth1   # 拼接成完整的授权信息
+TypeError: can only concatenate str (not "NoneType") to str
+
+INFO - 2024-09-11 01:29:15,063 - conftest.py:18 -[conftest:print_info] - ---------------接口测试结束---------------
+INFO - 2024-09-11 01:29:15,065 - conftest.py:16 -[conftest:print_info] - ---------------接口测试开始---------------
+ERROR - 2024-09-11 01:29:15,066 - yaml_handler.py:88 -[yaml_handler:get_extract_yaml] - Error：未知异常 - 'NoneType' object is not subscriptable
+ERROR - 2024-09-11 01:29:15,067 - apiutils_business.py:210 -[apiutils_business:execute_test_cases] - 出现未知异常，-- Traceback (most recent call last):
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 97, in execute_test_cases
+    headers = eval(self.parse_and_replace_variables(headers)) if isinstance(headers, str) else headers
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 50, in parse_and_replace_variables
+    extract_data = getattr(DebugTalk(), func_name)(*func_params)
+  File "D:\Code\1024\interfaceAuto\unit_tools\debugtalk.py", line 87, in get_headers_auth
+    auth2 = 'Bearer ' + auth1   # 拼接成完整的授权信息
+TypeError: can only concatenate str (not "NoneType") to str
+
+INFO - 2024-09-11 01:29:15,080 - conftest.py:18 -[conftest:print_info] - ---------------接口测试结束---------------
+INFO - 2024-09-11 01:29:15,082 - conftest.py:16 -[conftest:print_info] - ---------------接口测试开始---------------
+ERROR - 2024-09-11 01:29:15,084 - yaml_handler.py:88 -[yaml_handler:get_extract_yaml] - Error：未知异常 - 'NoneType' object is not subscriptable
+ERROR - 2024-09-11 01:29:15,085 - apiutils_business.py:210 -[apiutils_business:execute_test_cases] - 出现未知异常，-- Traceback (most recent call last):
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 97, in execute_test_cases
+    headers = eval(self.parse_and_replace_variables(headers)) if isinstance(headers, str) else headers
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 50, in parse_and_replace_variables
+    extract_data = getattr(DebugTalk(), func_name)(*func_params)
+  File "D:\Code\1024\interfaceAuto\unit_tools\debugtalk.py", line 87, in get_headers_auth
+    auth2 = 'Bearer ' + auth1   # 拼接成完整的授权信息
+TypeError: can only concatenate str (not "NoneType") to str
+
+INFO - 2024-09-11 01:29:15,101 - conftest.py:18 -[conftest:print_info] - ---------------接口测试结束---------------
+INFO - 2024-09-11 01:29:15,103 - conftest.py:16 -[conftest:print_info] - ---------------接口测试开始---------------
+ERROR - 2024-09-11 01:29:15,104 - yaml_handler.py:88 -[yaml_handler:get_extract_yaml] - Error：未知异常 - 'NoneType' object is not subscriptable
+ERROR - 2024-09-11 01:29:15,105 - apiutils_business.py:210 -[apiutils_business:execute_test_cases] - 出现未知异常，-- Traceback (most recent call last):
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 97, in execute_test_cases
+    headers = eval(self.parse_and_replace_variables(headers)) if isinstance(headers, str) else headers
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 50, in parse_and_replace_variables
+    extract_data = getattr(DebugTalk(), func_name)(*func_params)
+  File "D:\Code\1024\interfaceAuto\unit_tools\debugtalk.py", line 87, in get_headers_auth
+    auth2 = 'Bearer ' + auth1   # 拼接成完整的授权信息
+TypeError: can only concatenate str (not "NoneType") to str
+
+INFO - 2024-09-11 01:29:15,118 - conftest.py:18 -[conftest:print_info] - ---------------接口测试结束---------------
+INFO - 2024-09-11 01:29:15,120 - conftest.py:16 -[conftest:print_info] - ---------------接口测试开始---------------
+ERROR - 2024-09-11 01:29:15,122 - yaml_handler.py:88 -[yaml_handler:get_extract_yaml] - Error：未知异常 - 'NoneType' object is not subscriptable
+ERROR - 2024-09-11 01:29:15,122 - apiutils_business.py:210 -[apiutils_business:execute_test_cases] - 出现未知异常，-- Traceback (most recent call last):
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 97, in execute_test_cases
+    headers = eval(self.parse_and_replace_variables(headers)) if isinstance(headers, str) else headers
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 50, in parse_and_replace_variables
+    extract_data = getattr(DebugTalk(), func_name)(*func_params)
+  File "D:\Code\1024\interfaceAuto\unit_tools\debugtalk.py", line 87, in get_headers_auth
+    auth2 = 'Bearer ' + auth1   # 拼接成完整的授权信息
+TypeError: can only concatenate str (not "NoneType") to str
+
+INFO - 2024-09-11 01:29:15,135 - conftest.py:18 -[conftest:print_info] - ---------------接口测试结束---------------
+INFO - 2024-09-11 01:29:15,138 - conftest.py:16 -[conftest:print_info] - ---------------接口测试开始---------------
+ERROR - 2024-09-11 01:29:15,139 - yaml_handler.py:88 -[yaml_handler:get_extract_yaml] - Error：未知异常 - 'NoneType' object is not subscriptable
+ERROR - 2024-09-11 01:29:15,140 - apiutils_business.py:210 -[apiutils_business:execute_test_cases] - 出现未知异常，-- Traceback (most recent call last):
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 97, in execute_test_cases
+    headers = eval(self.parse_and_replace_variables(headers)) if isinstance(headers, str) else headers
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 50, in parse_and_replace_variables
+    extract_data = getattr(DebugTalk(), func_name)(*func_params)
+  File "D:\Code\1024\interfaceAuto\unit_tools\debugtalk.py", line 87, in get_headers_auth
+    auth2 = 'Bearer ' + auth1   # 拼接成完整的授权信息
+TypeError: can only concatenate str (not "NoneType") to str
+
+INFO - 2024-09-11 01:29:15,153 - conftest.py:18 -[conftest:print_info] - ---------------接口测试结束---------------
+INFO - 2024-09-11 01:29:58,591 - conftest.py:16 -[conftest:print_info] - ---------------接口测试开始---------------
+INFO - 2024-09-11 01:30:47,526 - conftest.py:16 -[conftest:print_info] - ---------------接口测试开始---------------
+INFO - 2024-09-11 01:30:50,015 - conftest.py:18 -[conftest:print_info] - ---------------接口测试结束---------------
+INFO - 2024-09-11 01:30:50,018 - conftest.py:16 -[conftest:print_info] - ---------------接口测试开始---------------
+ERROR - 2024-09-11 01:30:50,020 - yaml_handler.py:88 -[yaml_handler:get_extract_yaml] - Error：未知异常 - 'NoneType' object is not subscriptable
+ERROR - 2024-09-11 01:30:50,021 - apiutils_business.py:210 -[apiutils_business:execute_test_cases] - 出现未知异常，-- Traceback (most recent call last):
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 97, in execute_test_cases
+    headers = eval(self.parse_and_replace_variables(headers)) if isinstance(headers, str) else headers
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 50, in parse_and_replace_variables
+    extract_data = getattr(DebugTalk(), func_name)(*func_params)
+  File "D:\Code\1024\interfaceAuto\unit_tools\debugtalk.py", line 87, in get_headers_auth
+    auth2 = 'Bearer ' + auth1   # 拼接成完整的授权信息
+TypeError: can only concatenate str (not "NoneType") to str
+
+INFO - 2024-09-11 01:30:50,033 - conftest.py:18 -[conftest:print_info] - ---------------接口测试结束---------------
+INFO - 2024-09-11 01:30:50,036 - conftest.py:16 -[conftest:print_info] - ---------------接口测试开始---------------
+ERROR - 2024-09-11 01:30:50,037 - yaml_handler.py:88 -[yaml_handler:get_extract_yaml] - Error：未知异常 - 'NoneType' object is not subscriptable
+ERROR - 2024-09-11 01:30:50,038 - apiutils_business.py:210 -[apiutils_business:execute_test_cases] - 出现未知异常，-- Traceback (most recent call last):
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 97, in execute_test_cases
+    headers = eval(self.parse_and_replace_variables(headers)) if isinstance(headers, str) else headers
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 50, in parse_and_replace_variables
+    extract_data = getattr(DebugTalk(), func_name)(*func_params)
+  File "D:\Code\1024\interfaceAuto\unit_tools\debugtalk.py", line 87, in get_headers_auth
+    auth2 = 'Bearer ' + auth1   # 拼接成完整的授权信息
+TypeError: can only concatenate str (not "NoneType") to str
+
+INFO - 2024-09-11 01:30:50,069 - conftest.py:18 -[conftest:print_info] - ---------------接口测试结束---------------
+INFO - 2024-09-11 01:30:50,071 - conftest.py:16 -[conftest:print_info] - ---------------接口测试开始---------------
+ERROR - 2024-09-11 01:30:50,073 - yaml_handler.py:88 -[yaml_handler:get_extract_yaml] - Error：未知异常 - 'NoneType' object is not subscriptable
+ERROR - 2024-09-11 01:30:50,073 - apiutils_business.py:210 -[apiutils_business:execute_test_cases] - 出现未知异常，-- Traceback (most recent call last):
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 97, in execute_test_cases
+    headers = eval(self.parse_and_replace_variables(headers)) if isinstance(headers, str) else headers
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 50, in parse_and_replace_variables
+    extract_data = getattr(DebugTalk(), func_name)(*func_params)
+  File "D:\Code\1024\interfaceAuto\unit_tools\debugtalk.py", line 87, in get_headers_auth
+    auth2 = 'Bearer ' + auth1   # 拼接成完整的授权信息
+TypeError: can only concatenate str (not "NoneType") to str
+
+INFO - 2024-09-11 01:30:50,086 - conftest.py:18 -[conftest:print_info] - ---------------接口测试结束---------------
+INFO - 2024-09-11 01:30:50,089 - conftest.py:16 -[conftest:print_info] - ---------------接口测试开始---------------
+ERROR - 2024-09-11 01:30:50,091 - yaml_handler.py:88 -[yaml_handler:get_extract_yaml] - Error：未知异常 - 'NoneType' object is not subscriptable
+ERROR - 2024-09-11 01:30:50,091 - apiutils_business.py:210 -[apiutils_business:execute_test_cases] - 出现未知异常，-- Traceback (most recent call last):
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 97, in execute_test_cases
+    headers = eval(self.parse_and_replace_variables(headers)) if isinstance(headers, str) else headers
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 50, in parse_and_replace_variables
+    extract_data = getattr(DebugTalk(), func_name)(*func_params)
+  File "D:\Code\1024\interfaceAuto\unit_tools\debugtalk.py", line 87, in get_headers_auth
+    auth2 = 'Bearer ' + auth1   # 拼接成完整的授权信息
+TypeError: can only concatenate str (not "NoneType") to str
+
+INFO - 2024-09-11 01:30:50,105 - conftest.py:18 -[conftest:print_info] - ---------------接口测试结束---------------
+INFO - 2024-09-11 01:30:50,107 - conftest.py:16 -[conftest:print_info] - ---------------接口测试开始---------------
+ERROR - 2024-09-11 01:30:50,109 - yaml_handler.py:88 -[yaml_handler:get_extract_yaml] - Error：未知异常 - 'NoneType' object is not subscriptable
+ERROR - 2024-09-11 01:30:50,109 - apiutils_business.py:210 -[apiutils_business:execute_test_cases] - 出现未知异常，-- Traceback (most recent call last):
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 97, in execute_test_cases
+    headers = eval(self.parse_and_replace_variables(headers)) if isinstance(headers, str) else headers
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 50, in parse_and_replace_variables
+    extract_data = getattr(DebugTalk(), func_name)(*func_params)
+  File "D:\Code\1024\interfaceAuto\unit_tools\debugtalk.py", line 87, in get_headers_auth
+    auth2 = 'Bearer ' + auth1   # 拼接成完整的授权信息
+TypeError: can only concatenate str (not "NoneType") to str
+
+INFO - 2024-09-11 01:30:50,123 - conftest.py:18 -[conftest:print_info] - ---------------接口测试结束---------------
+INFO - 2024-09-11 01:30:50,126 - conftest.py:16 -[conftest:print_info] - ---------------接口测试开始---------------
+ERROR - 2024-09-11 01:30:50,127 - yaml_handler.py:88 -[yaml_handler:get_extract_yaml] - Error：未知异常 - 'NoneType' object is not subscriptable
+ERROR - 2024-09-11 01:30:50,127 - apiutils_business.py:210 -[apiutils_business:execute_test_cases] - 出现未知异常，-- Traceback (most recent call last):
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 97, in execute_test_cases
+    headers = eval(self.parse_and_replace_variables(headers)) if isinstance(headers, str) else headers
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 50, in parse_and_replace_variables
+    extract_data = getattr(DebugTalk(), func_name)(*func_params)
+  File "D:\Code\1024\interfaceAuto\unit_tools\debugtalk.py", line 87, in get_headers_auth
+    auth2 = 'Bearer ' + auth1   # 拼接成完整的授权信息
+TypeError: can only concatenate str (not "NoneType") to str
+
+INFO - 2024-09-11 01:30:50,141 - conftest.py:18 -[conftest:print_info] - ---------------接口测试结束---------------
+INFO - 2024-09-11 01:30:50,143 - conftest.py:16 -[conftest:print_info] - ---------------接口测试开始---------------
+ERROR - 2024-09-11 01:30:50,145 - yaml_handler.py:88 -[yaml_handler:get_extract_yaml] - Error：未知异常 - 'NoneType' object is not subscriptable
+ERROR - 2024-09-11 01:30:50,145 - apiutils_business.py:210 -[apiutils_business:execute_test_cases] - 出现未知异常，-- Traceback (most recent call last):
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 97, in execute_test_cases
+    headers = eval(self.parse_and_replace_variables(headers)) if isinstance(headers, str) else headers
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 50, in parse_and_replace_variables
+    extract_data = getattr(DebugTalk(), func_name)(*func_params)
+  File "D:\Code\1024\interfaceAuto\unit_tools\debugtalk.py", line 87, in get_headers_auth
+    auth2 = 'Bearer ' + auth1   # 拼接成完整的授权信息
+TypeError: can only concatenate str (not "NoneType") to str
+
+INFO - 2024-09-11 01:30:50,159 - conftest.py:18 -[conftest:print_info] - ---------------接口测试结束---------------
+INFO - 2024-09-11 01:30:50,161 - conftest.py:16 -[conftest:print_info] - ---------------接口测试开始---------------
+ERROR - 2024-09-11 01:30:50,162 - yaml_handler.py:88 -[yaml_handler:get_extract_yaml] - Error：未知异常 - 'NoneType' object is not subscriptable
+ERROR - 2024-09-11 01:30:50,163 - apiutils_business.py:210 -[apiutils_business:execute_test_cases] - 出现未知异常，-- Traceback (most recent call last):
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 97, in execute_test_cases
+    headers = eval(self.parse_and_replace_variables(headers)) if isinstance(headers, str) else headers
+  File "D:\Code\1024\interfaceAuto\unit_tools\apiutils_business.py", line 50, in parse_and_replace_variables
+    extract_data = getattr(DebugTalk(), func_name)(*func_params)
+  File "D:\Code\1024\interfaceAuto\unit_tools\debugtalk.py", line 87, in get_headers_auth
+    auth2 = 'Bearer ' + auth1   # 拼接成完整的授权信息
+TypeError: can only concatenate str (not "NoneType") to str
+
+INFO - 2024-09-11 01:30:50,176 - conftest.py:18 -[conftest:print_info] - ---------------接口测试结束---------------
