@@ -1,0 +1,9 @@
+pytest~=8.3.3
+requests~=2.32.3
+colorlog~=6.8.2
+PyYAML~=6.0.2
+openpyxl~=3.1.5
+PyMySQL~=1.1.1
+redis~=5.0.8
+Faker~=28.4.1
+jsonpath~=0.82.2
